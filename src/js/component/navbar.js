@@ -8,8 +8,10 @@ export const Navbar = () => {
 				<span className="navbar-brand mb-0 h1">React Boilerplate</span>
 			</Link>
 			<div className="ml-auto">
-				<Link to="/demo">
-					<button className="btn btn-primary">Check the Context in action</button>
+				{/* Link lo tulizamos como <a> y el href es el to='' */}
+				<Link to="/nuevo">
+					{/* cualquier hijo del Link al hacerse click en el te lleva a la ruta especificada en el atributo to={} del Link */}
+					<button className="btn btn-primary">add contact</button>
 				</Link>
 			</div>
 		</nav>
